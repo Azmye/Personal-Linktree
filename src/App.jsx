@@ -1,9 +1,9 @@
 import { useHref, useNavigate } from 'react-router-dom';
-import Links from './components/Links';
 import Contacts from './components/contacts';
 import Footer from './components/footer';
 import Topbar from './components/topbar';
 import { createElement } from 'react';
+import Links from './components/links';
 
 const App = () => {
   const handleOnClick = () => {
